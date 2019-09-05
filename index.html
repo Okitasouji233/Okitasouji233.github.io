@@ -5,7 +5,7 @@
     <style>
         body{background-image:url('背景.jpg');
             background-repeat:no-repeat;
-            background-size: 1500px;
+            background-size: 1900px;
         }
         a:link{color: blue}
         a:visited{color: blue}
@@ -62,6 +62,14 @@
             border-color: red;
             border-width: 7px;
             line-height: 300%;
+        }
+        .footer{
+            background-color:white;
+            padding: 20px;
+            text-align: center;
+            border-style: solid;
+            border-color: #66fffa;
+            border-width: 8px;
         }
         p1 {
             font-size: 40px;
@@ -168,7 +176,7 @@
     </script>
 </head>
 <body>
-<div id="container" style="width:1200px;height:205px">
+<div id="container" style="width:1200px;height:860px">
     <div id="university" style="position:absolute;top:0;left:0;background-color:#ccffff;width:1519px;height:212px;">
         <a href="http://www.ouc.edu.cn" target="_blank"><img src="校徽.jpg" width="758" height="212" alt=""></a>
     </div>
@@ -211,11 +219,16 @@
     <div class="column3">
         <ul>
             <li><b style="font-size: 40px;font-family: 楷体;">个人荣誉</b></li>
-            <li><button><b style="font-size: 25px;color: #FFFFFF">小学</b></button></li>
-            <li><button><b style="font-size: 25px;color: #FFFFFF">初中</b></button></li>
-            <li><button><b style="font-size: 25px;color: #FFFFFF">高中</b></button></li>
-            <li><button><b style="font-size: 25px;color: #FFFFFF">大学</b></button></li>
+            <li><button type="button"><b style="font-size: 25px;color: #FFFFFF">小学</b></button></li>
+            <li><button type="button"><b style="font-size: 25px;color: #FFFFFF">初中</b></button></li>
+            <li><button type="button"><b style="font-size: 25px;color: #FFFFFF">高中</b></button></li>
+            <li><button type="button"><b style="font-size: 25px;color: #FFFFFF">大学</b></button></li>
         </ul>
+        <p10><b id="text">什么都没有哦！</b></p10>
+    </div>
+
+    <div class="footer">
+        <b>©2019年9月 中国海洋大学 张明宇</b>
     </div>
 </div>
 </body>
