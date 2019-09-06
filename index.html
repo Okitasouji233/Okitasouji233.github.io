@@ -174,7 +174,16 @@
             document.getElementById("btn").innerHTML="_(:з」∠)_";
         }
         function primary(){
-            document.getElementById("text").innerHTML="小学拿了几个三好学生算不算";
+            document.getElementById("text").innerHTML="小学拿了几个三好学生算不算_(:з」∠)_";
+        }
+        function senior(){
+            document.getElementById("text").innerHTML="完全没有";
+        }
+        function junior(){
+            document.getElementById("text").innerHTML="高考超常发挥我才得以来到海大";
+        }
+        function college(){
+            document.getElementById("text").innerHTML="本来没有的，前几天开班会得知自己获得了学年三级学习奖学金_(:з」∠)_"
         }
     </script>
 </head>
@@ -223,9 +232,9 @@
         <ul>
             <li><b style="font-size: 40px;font-family: 楷体;">个人荣誉</b></li>
             <li><button type="button" onclick="primary()"><b style="font-size: 25px;color: #FFFFFF">小学</b></button></li>
-            <li><button type="button"><b style="font-size: 25px;color: #FFFFFF">初中</b></button></li>
-            <li><button type="button"><b style="font-size: 25px;color: #FFFFFF">高中</b></button></li>
-            <li><button type="button"><b style="font-size: 25px;color: #FFFFFF">大学</b></button></li>
+            <li><button type="button" onclick="senior()"><b style="font-size: 25px;color: #FFFFFF">初中</b></button></li>
+            <li><button type="button" onclick="junior()"><b style="font-size: 25px;color: #FFFFFF">高中</b></button></li>
+            <li><button type="button" onclick="college()"><b style="font-size: 25px;color: #FFFFFF">大学</b></button></li>
         </ul>
         <p10><b id="text" style="font-size: 35px;font-family: 宋体">什么都没有哦！</b></p10>
     </div>
